@@ -168,7 +168,7 @@ class ProductWidgetsCard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       CircleAvatar(
-                        radius: 15,
+                        radius: 12,
                         child: Center(
                           child: Icon(
                             Icons.add,
@@ -178,20 +178,20 @@ class ProductWidgetsCard extends StatelessWidget {
                         ),
                       ),
                       SizedBox(
-                        width: 6,
+                        width: 10,
                       ),
                       Text(
-                        '1',
+                        '1 pics',
                         style: TextStyle(
                             color: Colors.black54,
                             fontWeight: FontWeight.bold,
                             fontSize: 16),
                       ),
                       SizedBox(
-                        width: 6,
+                        width: 10,
                       ),
                       CircleAvatar(
-                        radius: 10,
+                        radius: 12,
                         child: Center(
                           child: Icon(
                             Icons.add,
